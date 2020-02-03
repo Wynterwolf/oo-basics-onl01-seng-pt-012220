@@ -1,9 +1,7 @@
 class Book
 
-  
-  def initialize(title)
 
-  def initialize(title
+  def initialize(title)
 
     @title = title
   end
@@ -11,7 +9,7 @@ class Book
   def title
     @title
   end
-<<<<<<< HEAD
+
   
   def author=(author)
     @author = author
@@ -40,10 +38,5 @@ class Book
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
-end
-=======
-
->>>>>>> dd374421aad3c70c54f3aa827da34889b7c5572b
-
 end
 
