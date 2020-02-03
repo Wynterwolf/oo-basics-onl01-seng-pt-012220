@@ -9,7 +9,7 @@ class Shoe
     @brand
   end
   
-  def color=(color)
+  def color=(color) #getter/setter for color
     @color = color
   end
   
@@ -17,12 +17,20 @@ class Shoe
     @color
   end
   
-  def size=(size)
+  def size=(size) #getter/setter for size
     @size = size
   end
   
   def size
     @size
+  end
+  
+  def material=(material) #getter/setter for material
+    @material = material
+  end
+  
+  def material
+    @material
   end
   
 end
