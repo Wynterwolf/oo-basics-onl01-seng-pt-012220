@@ -41,4 +41,8 @@ class Shoe
     @condition
   end
   
+  def cobble
+    puts "Something here"
+    self.contion = "new"
+  end
 end
