@@ -1,10 +1,10 @@
 class Book
-<<<<<<< HEAD
+
   
   def initialize(title)
-=======
+
   def initialize(title
->>>>>>> dd374421aad3c70c54f3aa827da34889b7c5572b
+
     @title = title
   end
   
