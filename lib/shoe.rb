@@ -33,4 +33,12 @@ class Shoe
     @material
   end
   
+  def condition=(condition) #getter/setter for condition
+    @condition = condition
+  end
+  
+  def condition
+    @condition
+  end
+  
 end
