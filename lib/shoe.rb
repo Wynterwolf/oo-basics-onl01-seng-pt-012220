@@ -4,7 +4,10 @@ def Shoe
     @brand = brand
   end
   
-  def brand = (breed)
-    @breed = breed
+  def brand = (brand)
+    @brand = brand
+    
+    def brand
+      @brand
   end
 end
